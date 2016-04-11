@@ -1,4 +1,7 @@
+var LoginComponent = require('./components/LoginComponent.react');
+
+
 ReactDOM.render(
-        <h1>Hello, world!</h1>,
-        document.getElementById('example')
+        <LoginComponent />,
+        document.getElementById('outing-survey')
 );
